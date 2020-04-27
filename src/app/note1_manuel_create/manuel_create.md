@@ -71,4 +71,4 @@ if (environment.production) {
 platformBrowserDynamic().bootstrapModule( ManuelTsFileModule )
   .catch(err => console.error(err));
 ````
-> _**ng serve --open**_ ng serve komutu uygulamayı derler ve çalıştırır. --open komutu browserı açar
+> _**ng serve --open**_ ng serve komutu uygulamayı derler ve çalıştırır. --open komutu ile uygulama tarayıcıda açılır.
